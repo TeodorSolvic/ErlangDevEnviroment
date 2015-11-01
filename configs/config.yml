@@ -1,0 +1,10 @@
+vm:
+    memory: 2048
+    cpus: 1
+    ioapic: "on"
+    box: ubuntu/trusty32
+    host_name: erlang.dev
+    synced_folder_from: projects	
+    synced_folder_to: /var/projects
+    synced_folder_type: nfs
+    network_ip: 192.168.73.37
